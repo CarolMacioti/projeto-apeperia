@@ -50,3 +50,12 @@ body{
     border: 1px solid white; /*contorno do botão*/
     border-radius: 5px; /*borda arredondada*/
 }
+
+/*Layout Desktop*/
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+}
